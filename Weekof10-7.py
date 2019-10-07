@@ -24,10 +24,14 @@ jokeEvalution = "Isn't that joke so funny?! %r"
 # make jokeeva. to equal a certain phrase
 
 print(jokeEvalution % hilarious)
+# had comp. print jokeeva. and hilarious
 
 w = "This is the left side of..."
+# made w equal to certain phrase
 e = " a string with a right side"
+# made e equal to certain phrase
 print(w+e)
+# had comp. combine w and e phrases
 
 # More printing fun
 print("Mary had a little lamb")
