@@ -10,13 +10,18 @@ y = "Those who know %s and those who %s" % (binary, doNot)
 # I made y a sentence and with vaules I filled in with binary, doNOt
 
 print(x)
+# printed out x definition
 print(y)
+# printed out y definition
 
 print("I said %r.:" %x)
+# made the computer quote my x definition
 print("I also said: '%s'." %y)
-
+# then made the computer quote my y def.
 hilarious = True
+# made any time I said hilarious to be equal to True
 jokeEvalution = "Isn't that joke so funny?! %r"
+# make jokeeva. to equal a certain phrase
 
 print(jokeEvalution % hilarious)
 
