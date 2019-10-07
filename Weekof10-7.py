@@ -1,9 +1,13 @@
 # More strings and text
 
 x = "There are %d types of people." %10
+# defined x and gave %d a vaule of 10
 binary = "binary"
+# made binary equal to binary
 doNot = "don't"
+# made doNot = "don't"
 y = "Those who know %s and those who %s" % (binary, doNot)
+# I made y a sentence and with vaules I filled in with binary, doNOt
 
 print(x)
 print(y)
