@@ -57,3 +57,12 @@ print(end7 + end8 + end9 + end10 + end11 + end12)
 # But wait! There's more:
 formatter = "%r %r %r %r"
 print(formatter % (1, 2, 3, 4))
+print(formatter % ("one", "two", "three", "four"))
+print(formatter % (True, False, True, False))
+print(formatter % (formatter, formatter, formatter, formatter))
+
+# why did I use%r instead of %s in the above example?
+
+# which should I use on a regualr basis
+
+# why does %r sometimes give me a single quotes around things?
