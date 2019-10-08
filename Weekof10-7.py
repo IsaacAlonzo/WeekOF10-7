@@ -64,7 +64,7 @@ print(formatter % (formatter, formatter, formatter, formatter))
 # why did I use%r instead of %s in the above example?
 
 # which should I use on a regular basis
-# using %s would be fine but if you wanted to use %r if you want
+# using %s would be fine but if you wanted to use %r you could but it would give you exactly what you typed onto the python file
 
 # why does %r sometimes give me a single quotes around things?
 
@@ -81,5 +81,21 @@ We"ll be able to type as much as we like.
 Even 4 lines if we want. or 10, or 100
 """)
 
+# examine clearly the difference between the %r formatter and 5s formatter
 print("Here are the months: %r" % months)
 print("Here are the month: %s" % months)
+
+# escape sequences redux
+bigdog = "\t I'm big boy"
+smalldog = "\t I'm a small dude"
+fatdog = "\t I'm fat dog"
+skinnydog = """
+I'll do a list:
+\t* dog food
+\t* Bones
+\t* Yard\n\t*grass
+"""
+print(bigdog)
+print(smalldog)
+print(fatdog)
+print(skinnydog)
