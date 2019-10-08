@@ -68,15 +68,18 @@ print(formatter % (formatter, formatter, formatter, formatter))
 
 # why does %r sometimes give me a single quotes around things?
 
-days = "Mon Tue Wed Thu Fri Sat Sun"
+pies = "Blu Che Key Cho Cra App"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
-print("here are the days: ", days)
-print("here are the months: ", months)
+print("Here are different pies: ", pies)
+print("Here are the months: ", months)
 
 print("""
 There's something going on here.
 With three double quotes.
 We"ll be able to type as much as we like.
-Even 4 lines if we want. or 10, ir 100
+Even 4 lines if we want. or 10, or 100
 """)
+
+print("Here are the months: %r" % months)
+print("Here are the month: %s" % months)
