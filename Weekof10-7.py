@@ -87,8 +87,8 @@ print("Here are the month: %s" % months)
 
 # escape sequences redux
 bigdog = "\t I'm a big boy"
-smalldog = "\t I'm a small dude"
-fatdog = "\t I'm fat dog"
+smalldog = "\t I'm \n small dude"
+fatdog = "\t I'm \\ fat \\ dog"
 skinnydog = """
 I'll do a list:
 \t* dog food
