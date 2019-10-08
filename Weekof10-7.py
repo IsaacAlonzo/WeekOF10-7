@@ -91,11 +91,50 @@ smalldog = "\t I'm \n small dude"
 fatdog = "\t I'm \\ fat \\ dog"
 skinnydog = """
 I'll do a list:
-\t* dog food
+\t dog food
 \t* Bones
-\t* Yard\n\t*grass
+\t* Yard\n\t* Grass
 """
 print(bigdog)
 print(smalldog)
 print(fatdog)
 print(skinnydog)
+
+# Escape Seq                   What it Does?
+# \\
+"\\ dude"
+#^ creates a backslash
+# \'
+"\' dude"
+# ^ gives an ' for something
+# \"
+"\" dude"
+# gives quotation marks for a line
+# \a
+"\' dude"
+# \b
+"\' dude"
+# \f
+"\' dude"
+# \n
+"\' dude"
+# ^ creates a new line
+"\' dude"
+# \N{name}
+"\' dude"
+# \r
+"\' dude"
+# \t
+"\' dude"
+# \uxxx
+"\' dude"
+# \Uxxxxxxx
+"\' dude"
+# \v
+"\' dude"
+# \ooo
+"\' dude"
+
+# \xhh
+"\' dude"
+
