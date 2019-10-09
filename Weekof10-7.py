@@ -88,7 +88,7 @@ print("Here are the month: %s" % months)
 # escape sequences redux
 bigdog = "\t I'm a big boy"
 smalldog = "\t I'm \n small dude"
-fatdog = "\t I'm \\ fat \\ dog"
+fatdog = "\t I'm \\ fat \r dog"
 skinnydog = """
 I'll do a list:
 \t dog food
@@ -113,20 +113,25 @@ dude = "dude"
 # gives quotation marks for a line
 # \a
 "\a dude"
+#^ creates a bell
 # \b
-"\a dude"
+"\b dude"
+# ^ makes a backspace
 # \f
-"\' dude"
+"du \f de"
+# ^ makes a question mark in box
 # \n
 "\' dude"
 # ^ creates a new line
-"\' dude"
 # \N{name}
 "\' dude"
+# ^ creates a name within the database
 # \r
-"\' dude"
+"\r dude"
+# ^ does a return
 # \t
 "\t dude"
+# ^ tabs the line
 # \uxxx
 "\' dude"
 # \Uxxxxxxx
