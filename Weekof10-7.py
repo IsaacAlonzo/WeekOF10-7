@@ -114,7 +114,7 @@ dude = "dude"
 # \a
 "\a dude"
 # \b
-"\' dude"
+"\a dude"
 # \f
 "\' dude"
 # \n
@@ -126,7 +126,7 @@ dude = "dude"
 # \r
 "\' dude"
 # \t
-"\' dude"
+"\t dude"
 # \uxxx
 "\' dude"
 # \Uxxxxxxx
@@ -155,3 +155,5 @@ age = input("how old are you")
 height = input("How tall are you?")
 
 print("So are %r old and %r tall" % (age, height))
+
+# ask 4 more questions and handle those reponses
