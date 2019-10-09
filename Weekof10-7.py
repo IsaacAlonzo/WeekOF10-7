@@ -99,6 +99,7 @@ print(bigdog)
 print(smalldog)
 print(fatdog)
 print(skinnydog)
+dude = "dude"
 
 # Escape Seq                   What it Does?
 # \\
@@ -111,7 +112,7 @@ print(skinnydog)
 "\" dude"
 # gives quotation marks for a line
 # \a
-"\' dude"
+"\a dude"
 # \b
 "\' dude"
 # \f
@@ -138,3 +139,13 @@ print(skinnydog)
 # \xhh
 "\' dude"
 
+# What dos the following code do;
+#       while True:
+#           for i in{ "/" , "-", "\", "\\", "|"}:
+#           print("%s\r" % i, end='')
+
+# nCan you use ''' instead of """?
+
+#
+#
+#
