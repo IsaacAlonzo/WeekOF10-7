@@ -139,13 +139,19 @@ dude = "dude"
 # \xhh
 "\' dude"
 
-# What dos the following code do;
+# What dos the following code block do: it continues to go until you stop it
 #       while True:
 #           for i in{ "/" , "-", "\", "\\", "|"}:
 #           print("%s\r" % i, end='')
 
-# nCan you use ''' instead of """?
+# Can you use ''' instead of """?
 
-#
-#
-#
+
+
+
+
+
+age = input("how old are you")
+height = input("How tall are you?")
+
+print("So are %r old and %r tall" % (age, height))
