@@ -157,3 +157,10 @@ height = input("How tall are you?")
 print("So are %r old and %r tall" % (age, height))
 
 # ask 4 more questions and handle those reponses
+
+pie = input("Do you like pie")
+flavor = input("What flavor do you like")
+crust = input("Do you like the crust on pie")
+cake = input("Is pie supierior to cake?")
+
+print(pie, flavor, crust, cake)
