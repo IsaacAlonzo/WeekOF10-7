@@ -182,4 +182,6 @@ value = input("which was valuable due to its")
 location = input("that was located in")
 evil = input("and a/an ")
 print("was guarding the %r" % (quest))
-
+attempt = ("our %r finally reached %r for his quest but " % (character, quest))
+print("at %r and " % (location))
+final = ("which lead to )
