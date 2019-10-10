@@ -142,7 +142,8 @@ dude = "dude"
 "\' dude"
 
 # \xhh
-"\' dude"
+print("\x48\x65\x6c\x6c\x6f")
+# ^it translates hexadecimal values into letters
 
 # What dos the following code block do: it continues to go until you stop it
 #       while True:
@@ -161,7 +162,7 @@ height = input("How tall are you?")
 
 print("So are %r old and %r tall" % (age, height))
 
-# ask 4 more questions and handle those reponses
+# ask 4 more questions and handle those reponses12
 
 pie = input("Do you like pie")
 flavor = input("What flavor do you like")
@@ -169,3 +170,10 @@ crust = input("Do you like the crust on pie")
 cake = input("Is pie supierior to cake?")
 
 print(pie, flavor, crust, cake)
+
+print("Hello and welcome to story time with Jeff.")
+
+character = input("Once there was a")
+action = input("and they were amazing at..")
+adjective = input("but they were ...")
+print("Let's recap our character is %r and their talent is %r but they are %r." % (character, action, adjective))
