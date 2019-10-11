@@ -35,6 +35,7 @@ print(w+e)
 
 # More printing fun
 print("Mary had a little lamb")
+#
 print("Its fleece was white as %s" % 'snow')
 print("And everywhere that Mary went")
 print("." * 10)
@@ -81,9 +82,11 @@ We"ll be able to type as much as we like.
 Even 4 lines if we want. or 10, or 100
 """)
 
-# examine clearly the difference between the %r formatter and 5s formatter
+# examine clearly the difference between the %r formatter and %s formatter
 print("Here are the months: %r" % months)
+# ^ gives you exactly what you typed
 print("Here are the month: %s" % months)
+# ^ creates a list for your values and puts each value on a new line
 
 # escape sequences redux
 bigdog = "\t I'm a big boy"
@@ -152,12 +155,12 @@ print("\x48\x65\x6c\x6c\x6f")
 #           for i in{ "/" , "-", "\", "\\", "|"}:
 #           print("%s\r" % i, end='')
 
+# ^ creates an endless loop that goes on until you press the stop button in the top right
+
 # Can you use ''' instead of """? Yes
 print('''hello
 dog 
 boy''')
-
-
 
 
 
