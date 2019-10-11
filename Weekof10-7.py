@@ -189,5 +189,4 @@ print("during their quest")
 final = ("%r ended up " % (character))
 print("Once there was a %r and they were amazing at %r but they were %r" % (character, action, adjective))
 print("%r began his quest for %r which was valuable due to its %r and was located in %r with a/an %r guarding the %r" % (character, quest, value, location, evil, quest))
-print("This lead to %r to %r during their quest. %r ended up %r" % (character, problem, character, final))
-
+print("This lead to %r to %r during their quest. %r with %r" % (character, problem, character, final))
