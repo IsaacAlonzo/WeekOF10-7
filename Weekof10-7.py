@@ -132,15 +132,17 @@ dude = "dude"
 # \t
 "\t dude"
 # ^ tabs the line
-# \uxxx
-"\' dude"
+# \uxxxx
+print("\u6465")
+# ^ converts four hexadecimal value into a character
 # \Uxxxxxxx
-"\' dude"
+# ^ converts hex values to letters but must be eight hexadecimal values
 # \v
-"\' dude"
+print(" du\vde")
+# ^ creates a box with with a symbol in it
 # \ooo
-"\' dude"
-
+print("\110\145\154\154\157")
+# ^ converts octal values to letters
 # \xhh
 print("\x48\x65\x6c\x6c\x6f")
 # ^it translates hexadecimal values into letters
@@ -150,8 +152,10 @@ print("\x48\x65\x6c\x6c\x6f")
 #           for i in{ "/" , "-", "\", "\\", "|"}:
 #           print("%s\r" % i, end='')
 
-# Can you use ''' instead of """?
-
+# Can you use ''' instead of """? Yes
+print('''hello
+dog 
+boy''')
 
 
 
